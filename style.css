@@ -1,7 +1,15 @@
 
 .container{
     margin: 300px;
-    max-width: 160px;
+    max-width: 271px;
     display: flex;
     flex-wrap: wrap;
+    gap: 1px;
+}
+
+.item{
+    background-color: grey;
+    min-width: 16px;
+    min-height: 16px;
+
 }
