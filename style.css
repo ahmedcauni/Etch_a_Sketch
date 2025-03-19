@@ -2,11 +2,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    gap: 30px;
 }
 
 .container{
     border: 2px solid black;
-    margin: 300px;
     max-width: 272px;
     display: flex;
     flex-wrap: wrap;
@@ -19,3 +20,4 @@ body{
     min-height: 16px;
 
 }
+
