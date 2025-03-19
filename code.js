@@ -17,3 +17,11 @@ items.forEach((item)=>{
         e.target.style.backgroundColor="red"
     })
 })
+
+const resetbutton=document.getElementById("reset");
+
+resetbutton.addEventListener("click",()=>{
+    items.forEach((item)=>{
+        item.style.backgroundColor="rgb(216, 204, 204)"
+    })
+})
