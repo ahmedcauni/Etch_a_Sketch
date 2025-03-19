@@ -1,5 +1,11 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .container{
+    border: 2px solid black;
     margin: 300px;
     max-width: 271px;
     display: flex;
