@@ -8,3 +8,12 @@ for (let i=z;i>0;i--){
     item.classList.add("item");
     container.append(item)
 }
+
+const items =document.querySelectorAll(".item");
+
+
+items.forEach((item)=>{
+    item.addEventListener("mouseover",(e)=>{
+        e.target.style.backgroundColor="red"
+    })
+})
